@@ -1,0 +1,8 @@
+/*
+Here we will talk about different properties of text font styling
+*/
+
+h1 {
+    text-align: center; /*This is used for alignment of text*/
+    background-color: green;
+}
