@@ -1,8 +1,46 @@
 /*
-Here we will talk about different properties of text font styling
+    - PROPERTIES ABOUT TEXT AND FONTS
 */
 
 h1 {
     text-align: center; /*This is used for alignment of text*/
     background-color: green;
+    text-decoration: underline; 
+    font-weight: bold;
+
 }
+
+
+/* 
+
+##Text (unit) analogy : 
+
+- px (pixel) mostly used in borders and shadows.
+
+ -- shadows , borders => px (pixel is a fixed value, it does not change with user setting.)
+ -- width => %
+ -- font size => rem (rem changes with according with user setting)
+
+- On fonts [particulary on the text] we should always use (rem).
+
+*/
+
+
+p {
+    font-weight: 800;
+    word-spacing: 8px;
+    font-family: sans-serif;
+    font-family: monospace;
+}
+
+/* 
+## Font-weight property
+ - we can use : bold , bolder , light
+ - we can also use : values from (100 - 900 )
+
+## Font-family 
+ - can use 'san-serif' which is already define in brower 
+ - we can also embed the google-font link and change font according to them 
+ - mostly use "roboto" , "latto" , "Poppins"
+ - recommended to lint the google font by @import int css style sheed
+*/
