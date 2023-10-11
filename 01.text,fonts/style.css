@@ -2,12 +2,24 @@
     - PROPERTIES ABOUT TEXT AND FONTS
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Jost:ital,wght@1,300&family=Montserrat:wght@100&family=Noto+Sans:wght@100&family=Oswald&family=Outfit:wght@500&family=Poppins:wght@300&family=Red+Hat+Display:wght@500&family=Roboto:ital@1&display=swap');
+
+body {
+    font-family:'Noto Sans', sans-serif;
+    background-color: wheat;
+}
+
+/* 
+ ## Fallbacks 
+ - it is used for fonts family. If a broswer does not recognised one type font then it apllied and font which was 
+   given there means for (fallback)
+*/
+
 h1 {
     text-align: center; /*This is used for alignment of text*/
     background-color: green;
     text-decoration: underline; 
-    font-weight: bold;
-
+    font-weight: 800;
 }
 
 
@@ -29,8 +41,7 @@ h1 {
 p {
     font-weight: 800;
     word-spacing: 8px;
-    font-family: sans-serif;
-    font-family: monospace;
+    font-style: italic;
 }
 
 /* 
@@ -43,4 +54,23 @@ p {
  - we can also embed the google-font link and change font according to them 
  - mostly use "roboto" , "latto" , "Poppins"
  - recommended to lint the google font by @import int css style sheed
+
+##Font-style 
+ - normal , italic , oblique
+*/
+
+.container {
+    width: 80%;
+    margin: 50px;
+    padding: 40px;
+    background-color: white;
+    border-radius: 8px;
+
+    box-shadow: 4px 4px 1px 0px #ccc , -4px -4px 1px 10px purple;
+}
+
+/* 
+##box-shardow: 'horizontal'  'vertical' 'blur' "spread radius" 'color' ; 
+ - In this property there is four value ;
+ - we can apply this value according to our niche.
 */
