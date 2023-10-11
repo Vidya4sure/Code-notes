@@ -1,0 +1,25 @@
+/* 
+    Layout basic / basic flexbox understanding
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+div {
+    border: 2px solid green;
+    padding: 20px;
+    margin: 5px;
+}
+
+.content {
+    display: flex;
+}
+
+.left {
+    flex-basis: 40%;
+}
+
+.right {
+    flex-grow: 1;
+}
